@@ -1,0 +1,213 @@
+/* Color del body */
+body{
+    /* background: linear-gradient(-90deg,#5d7197 , #8ea9c7,#40557c); */
+    background-image: url(https://i.pinimg.com/videos/thumbnails/originals/1b/94/96/1b9496c8c53254040b029311da4e8560.0000000.jpg); 
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color:#40557c;
+}
+
+
+
+/* Imagen de perfil */
+.yo{
+    border-radius: 900px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.yo:hover{
+    width: 300px;
+}
+
+@media screen and (max-width:1200px){
+    .yo{
+        margin-left: 90px;
+        margin-top: 100px;
+    }
+}
+
+/* Texto del perfil */
+.h1-profile{
+    margin: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+}
+
+
+/* Informacion  */
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(254, 255, 254);
+}
+
+.h5P{
+    color: rgb(255, 233, 204);
+    font-weight: bold;
+}
+
+.p33{
+color: aliceblue;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Botones/Imagenes */
+.h1C {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bi-arrow-left-circle-fill {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    left: 40px;
+    top: 35px;
+
+}
+
+.bi-arrow-left-circle-fill:hover {
+    /* font-size: 76px; */
+    color: #8b99d6;
+}
+
+@media screen and (max-width: 800px) {
+    .bi-arrow-left-circle-fill {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 800px;
+        left: 40px;
+        top: 40px;
+
+    }
+
+
+}
+
+.agrega {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 500px;
+    top: 35px;
+}
+
+.agrega:hover {
+
+    color: rgb(52, 52, 59);
+
+
+}
+
+.fav {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 400px;
+    top: 35px;
+}
+
+.fav:hover {
+
+    color: rgb(255, 0, 0);
+
+}
+
+.profile {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 300px;
+    top: 35px;
+}
+
+.profile:hover {
+    color: rgb(92, 230, 245);
+
+}
+
+.todo {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 200px;
+    top: 35px;
+}
+
+.todo:hover {
+
+    color: rgb(242, 136, 79);
+
+}
+
+@media screen and (max-width: 1400px) {
+    .containerTodo {
+        padding-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .agrega {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 50px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .fav {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 350px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .profile {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 250px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .todo {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 150px;
+        top: 150px;
+    }
+
+}

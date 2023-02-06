@@ -1,0 +1,206 @@
+body {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-90deg,#232223 , #2f2c34,#38323a);
+}
+.h1C {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.bi-arrow-left-circle-fill {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    left: 40px;
+    top: 35px;
+
+}
+
+.bi-arrow-left-circle-fill:hover {
+    /* font-size: 76px; */
+    color: #8b99d6;
+}
+
+@media screen and (max-width: 800px) {
+    .bi-arrow-left-circle-fill {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 800px;
+        left: 40px;
+        top: 40px;
+
+    }
+
+
+}
+
+.agrega {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 500px;
+    top: 35px;
+}
+
+.agrega:hover {
+
+    color: rgb(52, 52, 59);
+
+
+}
+
+.fav {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 400px;
+    top: 35px;
+}
+
+.fav:hover {
+
+    color: rgb(255, 0, 0);
+
+}
+
+.profile {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 300px;
+    top: 35px;
+}
+
+.colapsado {
+    background-color: #dcf1f8;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.profile:hover {
+    color: rgb(92, 230, 245);
+
+}
+
+.todo {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 800px;
+    right: 200px;
+    top: 35px;
+}
+
+.todo:hover {
+
+    color: rgb(242, 136, 79);
+
+}
+
+@media screen and (max-width: 1500px) {
+    .containerTodo {
+        padding-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1550px) {
+    .agrega {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 50px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .fav {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 350px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .profile {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 250px;
+        top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .todo {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 800px;
+        right: 150px;
+        top: 150px;
+    }
+
+}
+
+.persona {
+    font-size: 90px;
+}
+
+.trs {
+    text-align: center;
+}
+
+.trs-text {
+    text-align: center;
+    font-weight: normal;
+}
+
+.accordion-item {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+.pie-pagina .derechos {
+    padding: 15px 10pc;
+    text-align: center;
+    color: white;
+}
+
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.2); }
+    to { transform: scale(1.1); }
+}
+/* En la clase corazon vamos a llamar latidos en la animación  */
+.bi-heart-fill {
+	display: inline-block;
+	font-size: 15px;
+	text-shadow: 0 0 10px #222,1px 1px  0 #450505;
+	color: red;
+	animation: latidos .5s infinite;
+	transform-origin: center;
+}

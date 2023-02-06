@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(#141e30, #243b55);
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    height: 100%;
+}
+
+.ssss{
+    color: white;
+}
+
+.btnRegis:hover{
+    background: #000000;
+    color: white;
+}

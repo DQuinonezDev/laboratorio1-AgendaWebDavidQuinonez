@@ -1,0 +1,1215 @@
+<!-- Login -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assests/css/contactos.css">
+    <title>Contactos</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1 class="h1C">CONTACTOS</h1>
+        <a href="./index.html"><i data-bs-toggle="tooltip" data-bs-title="REGRESO A LOGIN" data-bs-placement="bottom"
+                class="bi bi-arrow-left-circle-fill"></i></a>
+
+        <a href="./nuevoContacto.html"><i data-bs-toggle="tooltip" data-bs-title="AGREGAR" data-bs-placement="bottom"
+                class="bi bi-person-fill-add agrega"></i></a>
+
+        <a href="./favoritos.html"><i data-bs-toggle="tooltip" data-bs-title="CONTACTOS FAVORITOS" data-bs-placement="bottom"
+                class="bi bi-heart-fill fav"></i></a>
+        <a href="./perfil.html"><i data-bs-toggle="tooltip" data-bs-title="PERFIL" data-bs-placement="bottom"
+                class="bi bi-person-square profile"></i></a>
+        <a href="./todolist.html"><i data-bs-toggle="tooltip" data-bs-title="ToDo list" data-bs-placement="bottom"
+                class="bi bi-journal-bookmark-fill  todo"></i></a>
+    </div>
+
+
+
+
+    <div class="container containerTodo">
+        <div class="row ">
+            <div class="col-md-12">
+                <p style="color: white;">A</p>
+                <hr style="color: white;">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <i class="bi bi-heart-fill"
+                                    style="color: red; animation: name duration timing-function delay iteration-count direction fill-mode;"></i>
+                                &nbsp; &nbsp; Alex
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-1-circle"></i></th>
+                                            <td>Alex</td>
+                                            <td>Ramirez</td>
+                                            <td>5518-6394</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Alex Javier Perez Ramirez</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4, 20-21 colonia El monaso
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>5518 - 6394 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>alexpow@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <i class="bi bi-heart"></i> &nbsp; &nbsp;Amy
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-2-circle"></i></th>
+                                            <td>Amy</td>
+                                            <td>Lopez</td>
+                                            <td>1234-4321</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal1">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal1"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel1"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel1"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Amy Alejandra Lopez Lopez</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>zona 1 colonia Las buenas nuevas
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>1234 - 4321</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>alemy02@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p style="color: white;">C</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <i class="bi bi-heart "></i> &nbsp; &nbsp; Camilo LA
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-3-circle"></i></th>
+                                            <td>Camilo</td>
+                                            <td>Lamp</td>
+                                            <td>7894-4987</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal2">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal2"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel2"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel2"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Camilo Antonio Lamp Agar</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4 de Mixco colonia El bosque 2
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>7894 - 4987</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>camilolzazo@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: white;">D</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne1">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne1" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne1">
+                                <i class="bi bi-heart-fill" style="color: red;"></i> &nbsp; &nbsp; DavidQ (Yo)
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse "
+                            aria-labelledby="panelsStayOpen-headingOne1">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-4-circle"></i></th>
+                                            <td>David</td>
+                                            <td>Quiñonez</td>
+                                            <td>3381-4801</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal3">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal3"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel3"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel3"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>David Josué André Quiñonez Zeta</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4 de mixco 28-24 Colonia Bosques de San Nicolas
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>3381 - 4801 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>davidjosueaq2004@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne2">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne2" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne2">
+                                <i class="bi bi-heart "></i> &nbsp; &nbsp; Duvon
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne2">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-5-circle"></i></th>
+                                            <td>Marcos</td>
+                                            <td>Duvon</td>
+                                            <td>0101-0202</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal4">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal4"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel4"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel4"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Marcos Duvon Alvarado</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 6, 20-21 av. 5
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>0101 - 0202 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>duvoal@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: white;">E</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne3">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne3">
+                                <i class="bi bi-heart-fill" style="color: red;"></i> &nbsp; &nbsp; Emili :)
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse "
+                            aria-labelledby="panelsStayOpen-headingOne3">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-6-circle"></i></th>
+                                            <td>Emili</td>
+                                            <td>Gonzalez</td>
+                                            <td>9856-4568</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal5">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal5"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel5"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel5"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Emili Elisa Gonzalez</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4 de mixco, colonia el calvario
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>9856 - 4568 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>emiligonza05@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne4">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne4" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne4">
+                                <i class="bi bi-heart "></i> &nbsp; &nbsp; Erika Helados
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne4">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-7-circle"></i></th>
+                                            <td>Erika</td>
+                                            <td>Martinez</td>
+                                            <td>4598-5635</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal6">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal6"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel6"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel6"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Erika Martinez de la Cruz</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>zona 3 colonia Landivar
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>>4598 - 5635 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>heladoserikala@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne5">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne5" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne5">
+                                <i class="bi bi-heart-fill" style="color: red;"></i> &nbsp; &nbsp;Esteban Ramirez
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne5" class="accordion-collapse collapse "
+                            aria-labelledby="panelsStayOpen-headingOne5">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-8-circle"></i></th>
+                                            <td>Esteban</td>
+                                            <td>Ramirez</td>
+                                            <td>5478-9632</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal7">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal7"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel7"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel7"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Paul Esteban Ramirez Morales</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>colonia Jorch curioso 1
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>5478 - 9632 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>este78ban@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: white;">M</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne6">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne6" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne6">
+                                <i class="bi bi-heart-fill" style="color: red;"></i> &nbsp; &nbsp; Mamá
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse "
+                            aria-labelledby="panelsStayOpen-headingOne6">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-9-circle"></i></th>
+                                            <td>Lilian</td>
+                                            <td>Quiñonez</td>
+                                            <td>3321-4568</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal8">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal8"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel8"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel8"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Lilian Maribel Quiñonez Zeta</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4 de mixco 28-24 Colonia Bosques de San Nicolas
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>3321 - 4568</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>lili092@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: white;">R</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo1">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo1" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo1">
+                                <i class="bi bi-heart "></i> &nbsp; &nbsp; Revi
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo1" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo1">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-1-circle"></i><i class="bi bi-0-circle"></i>
+                                            </th>
+                                            <td>Juan</td>
+                                            <td>Revil</td>
+                                            <td>5518-3333</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal19">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal19"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel19"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel19"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Juan Pablo Revi Martinez</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 7 98-89 av. 09
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>5518 - 3333 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>revimago@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo11">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo11" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo11">
+                                <i class="bi bi-heart-fill" style="color: red;"></i> &nbsp; &nbsp; Renata
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo11" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo11">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text">
+                                            <th scope="row"><i class="bi bi-1-circle"></i><i class="bi bi-1-circle"></i>
+                                            </th>
+                                            <td>Renata</td>
+                                            <td>Dávila</td>
+                                            <td>2456-8965</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal191">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal191"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel19"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel191">
+                                                                    <i class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body" style="color: black;">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Alexia Renata Dávila Zapata</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Zona 4 de mixco colonia Bosques de San Nicolas
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>2456 - 8965 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>renatialinda@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: white;">T</p>
+                    <hr style="color: white;">
+                    <div class="accordion-item" style="border-radius: 30px;">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne7">
+                            <button class="accordion-button collapsed colapsado" type="button"
+                                style="border-radius: 30px;" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne7" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne7">
+                                <i class="bi bi-heart"></i> &nbsp; &nbsp;Tito
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne7" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne7">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="trs">
+                                            <th scope="col">#</th>
+                                            <th scope="col">Nombre</th>
+                                            <th scope="col">Apellido</th>
+                                            <th scope="col">Numero de Teléfono</th>
+                                            <th scope="col">Ver más</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="trs-text" ">
+                                            <th scope=" row"><i class="bi bi-1-circle"></i><i
+                                                class="bi bi-2-circle"></i></th>
+                                            <td>Roberto</td>
+                                            <td>Lewandowski</td>
+                                            <td>1111-2211</td>
+                                            <td><!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal9">
+                                                    <i class="bi bi-info-circle-fill"></i> Info.
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" style="color: black;" id="exampleModal9"
+                                                    tabindex="-1" aria-labelledby="exampleModalLabel9"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel9"><i
+                                                                        class="bi bi-info-circle"></i>
+                                                                    Información
+                                                                </h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <i class="bi bi-person persona"></i>
+                                                                <h4>Nombre Completo:</h4>
+                                                                <p>Roberto Tito Lewandowski</p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Dirección:</h4>
+                                                                <p>Barcelona 8-2
+                                                                </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Teléfono:</h4>
+                                                                <p>1111 - 2211 </p>
+                                                                <div class="container">
+                                                                    <hr>
+                                                                </div>
+                                                                <h4>Correo:</h4>
+                                                                <p>titoelgoleado@gmail.com </p>
+
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-chat-dots-fill"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-whatsapp"></i></button>
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal"><i
+                                                                        class="bi bi-telephone-outbound-fill"></i></button>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+
+        <div class="derechos">
+            <b>Derechos reservados - &copy; David Quiñonez</b>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

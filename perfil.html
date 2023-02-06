@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assests/css/perfil.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="h1C">PERFIL</h1>
+        <a href="./index.html"><i data-bs-toggle="tooltip" data-bs-title="REGRESO A LOGIN" data-bs-placement="bottom"
+                class="bi bi-arrow-left-circle-fill"></i></a>
+
+        <a href="./nuevoContacto.html"><i data-bs-toggle="tooltip" data-bs-title="AGREGAR" data-bs-placement="bottom"
+                class="bi bi-person-fill-add agrega"></i></a>
+
+        <a href="./favoritos.html"><i data-bs-toggle="tooltip" data-bs-title="CONTACTOS FAVORITOS"
+                data-bs-placement="bottom" class="bi bi-heart-fill fav"></i></a>
+        <a href="./contactos.html"><i data-bs-toggle="tooltip" data-bs-title="CONTACTOS" data-bs-placement="bottom"
+                class="bi bi-person-lines-fill  profile"></i></a>
+        <a href="./todolist.html"><i data-bs-toggle="tooltip" data-bs-title="ToDo list" data-bs-placement="bottom"
+                class="bi bi-journal-bookmark-fill  todo"></i></a>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <div class="" style="width: 20rem;">
+                    <img src="./assests/images/ccb.jpg" class="card-img-top yo" alt="img">
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <h1 class="h1-profile"> (Admin)</h1>
+
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col">
+                <h1 class="info">Información del Usuario</h1>
+                <h5 class="h5P">Nombre del propietario:</h5>
+                <p class="p33">David Josué André Quiñonez Zeta</p>
+                <h5 class="h5P">Fecha de Nacimiento:</h5>
+                <p class="p33">7 de Diciembre de 2004</p>
+                <h5 class="h5P">Numero de telefono:</h5>
+                <p class="p33">3381-4801</p>
+                <h5 class="h5P">Correo:</h5>
+                <p class="p33">davidjosueaq2004@gmail.com</p>
+                <h5 class="h5P">Direccion del propietario:</h5>
+                <p class="p33">12 calle 28-24 zona 4 de Mixco Colonia Bosques de San Nicolas</p>
+            </div>
+            <div class="col">
+                <h1 class="info">Informacion de la Aplicación</h1>
+                <p class="p33">Esta aplicacion es para agregar, editar, o eliminar un contacto de tu agenda web, ademas
+                    de que con esta aplicacion puedes ver tus actividades que tienes que realizar.
+                </p>
+                <br>
+                <p class="p33">Esta Pagina web contiene un login donde al iniciar sesion podras ir directamente a la
+                    seccion de contactos, donde veras todos los contactos que tienes registrados.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

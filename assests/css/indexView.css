@@ -1,0 +1,112 @@
+/* body backround / html  */
+
+body {
+    background: linear-gradient( #141e30, #243b55);
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    height: 100%; 
+}
+
+/* CARD */
+.card-login {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #5D6D7E;  
+    height: 500px;
+    box-shadow: 30px 30px 30px #243b55;
+    border: none;
+}
+
+/*  orentacion */
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Boton e inputs   */
+
+.login input {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.login input:focus {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: white;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.login input::placeholder {
+    color: #fff;
+}
+
+
+/* Boton Ingresar */
+
+.login .boton-iniciar {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: #1c2028;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login .boton-iniciar:hover {
+    background: #8ec1e7;
+    color: #000;
+    transform: scale(1, 1.2);
+}
+
+/* Texto iniciar  sesion */
+.iniciar {
+    color: white;
+    font-size: 25px;
+}
+
+/* registro */
+.registrate {
+    color: #a2e0f6;
+}
+
+.registrate:hover {
+    color: #9ede9d;
+    font-size: 18px;
+}
+
+.img-lofin {
+    font-size: 120px;
+    position: absolute;
+    top: -120px;
+    color: #a3bbce;
+
+}
+
+/* derechos de autor */
+.pie-pagina .derechos {
+    padding: 15px 10pc;
+    text-align: center;
+    color: white;
+}
